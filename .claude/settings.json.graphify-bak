@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "superpowers-dev": { "source": { "source": "github", "repo": "obra/superpowers" } },
+    "understand-anything": { "source": { "source": "github", "repo": "Lum1104/Understand-Anything" } }
+  },
+  "enabledPlugins": {
+    "superpowers@superpowers-dev": true,
+    "understand-anything@understand-anything": true
+  }
+}
