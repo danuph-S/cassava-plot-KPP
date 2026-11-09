@@ -1,0 +1,29 @@
+# รายการปลั๊กอินที่สคริปต์ติดตั้งจะติดตั้งให้
+# รูปแบบ: <marketplace-repo>  <plugin@marketplace>
+# ลบหรือใส่ # หน้าบรรทัดที่ไม่ต้องการก่อนรันสคริปต์
+# marketplace ทางการของ Anthropic คือ anthropics/claude-plugins-official
+
+# --- เขียนโปรแกรม / วางแผน ---
+anthropics/claude-plugins-official      superpowers@claude-plugins-official
+anthropics/claude-plugins-official      frontend-design@claude-plugins-official
+anthropics/claude-plugins-official      skill-creator@claude-plugins-official
+anthropics/claude-plugins-official      playground@claude-plugins-official
+
+# --- เอกสาร Word / PDF / PowerPoint / Excel + ดีไซน์ ---
+anthropics/skills                      document-skills@anthropic-agent-skills
+anthropics/skills                      example-skills@anthropic-agent-skills
+
+# --- วิเคราะห์ข้อมูล / แดชบอร์ด / สรุปงาน / ดีไซน์ ---
+anthropics/knowledge-work-plugins      data@knowledge-work-plugins
+anthropics/knowledge-work-plugins      productivity@knowledge-work-plugins
+anthropics/knowledge-work-plugins      design@knowledge-work-plugins
+
+# --- ออกแบบ UI / เว็บแอป ---
+nextlevelbuilder/ui-ux-pro-max-skill   ui-ux-pro-max@ui-ux-pro-max-skill
+pbakaus/impeccable                     impeccable@impeccable
+
+# --- ทำความเข้าใจโค้ด ---
+Lum1104/Understand-Anything            understand-anything@understand-anything
+
+# --- ดูวิดีโอ (YouTube / TikTok / Facebook / ไฟล์ในเครื่อง) ---
+bradautomates/claude-video             watch@claude-video
